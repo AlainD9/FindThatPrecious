@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+img:hover{
+  opacity:0.5;  
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  border-color: purple;
+  border-style: groove;
+}
+@media screen and (min-width: 600px){
+  img{
+    width: 600px;
+    height: auto;
+    }
+}
+header:first-child{
+  filter:grayscale(100%)
+}
+.hiddenMenu {
+  display: none;
+  text-decoration-line: none;
+}
+nav:hover .hiddenMenu {
+  display: block;
+}
+@media screen and (min-width: 0px) {
+  *{
+    color: white;
+    background: black;
+  }
+}
+@media screen and (min-width: 600px) {
+  *{
+    color: black;
+    background: white;
+  }
+  
+}
