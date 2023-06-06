@@ -1,44 +1,102 @@
 *{
   margin: 0;
   padding: 0;
-  font-size: 62.5%;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
-img:hover{
-  opacity:0.5;  
+
+h2{
+  font-size: 1em;
 }
-img{
+
+nav{
+  background: rgb(85, 85, 85);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+header ul{
+width: 60%;
+}
+
+nav li:hover{
+  opacity: 50%;
+}
+
+header{
+  background: rgb(194, 194, 194);
+  padding-bottom: 8em;
+}
+
+main h2{
+  margin-top: 1em;
+}
+
+main section{
   width: 100%;
-  height: auto;
-  border-radius: 3px;
-  border-color: purple;
-  border-style: groove;
+  border-bottom: 1px;
+  border-bottom-style: solid;
 }
-@media screen and (min-width: 600px){
-  img{
-    width: 600px;
-    height: auto;
-    }
+
+section ul{
+  margin: 0 auto;
+  width: 80%;
+  font-size: 30px;
 }
-header:first-child{
-  filter:grayscale(100%)
+
+section ul li{
+  height: 4em;
+  margin: 1em auto 1em auto;
+  background: rgb(194, 194, 194);
 }
-.hiddenMenu {
-  display: none;
-  text-decoration-line: none;
+
+form h2{
+  margin: 2em auto 1em auto;
 }
-nav:hover .hiddenMenu {
-  display: block;
+
+form{
+  flex-direction: column;
 }
-@media screen and (min-width: 0px) {
-  *{
-    color: white;
-    background: black;
-  }
+
+form input[type=text], input[type=email], textarea{
+  width: 60%;
+  margin: 0.5em auto;
 }
-@media screen and (min-width: 600px) {
-  *{
-    color: black;
-    background: white;
-  }
-  
+
+body form{
+  margin: 0 auto 2em 0;
 }
+
+.submitDiv{
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#submit{
+  width: 20%;
+}
+
+body footer{
+  background: rgb(85, 85, 85);
+  border-top: 1px;
+  border-top-style: solid;
+}
+
+.footerDiv{
+  padding: 1.5em;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
+}
+
