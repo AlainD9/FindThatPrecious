@@ -56,28 +56,37 @@ section ul li{
   background: rgb(194, 194, 194);
 }
 
-main hr {
-  margin: 1em 0;
-}
-
-body form{
-  display: flex;
+form{
+  margin-top: 1em;
+  border-top: 1px;
+  border-top-style: solid;
   flex-direction: column;
 }
 
-form{
-}
-
 form input, textarea{
+  width: 60%;
   margin: 0.5em auto;
 }
+
+input[type=submit]{
+  width: 10%;
+}
+
 form hr{
   margin: 1em 0 0 0;
 }
 
-footer{
+body footer{
   background: rgb(85, 85, 85);
-  height: 5em;
+  border-top: 1px;
+  border-top-style: solid;
+}
+
+.footerDiv{
+  padding: 1em 0 1em 0;
   color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
 }
 
