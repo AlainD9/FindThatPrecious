@@ -65,11 +65,14 @@ body form{
   flex-direction: column;
 }
 
+form{
+}
+
 form input, textarea{
   margin: 0.5em auto;
 }
 form hr{
-  margin: 1em 0 0 0
+  margin: 1em 0 0 0;
 }
 
 footer{
